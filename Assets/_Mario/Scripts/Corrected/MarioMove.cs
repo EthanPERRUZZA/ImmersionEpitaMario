@@ -19,17 +19,17 @@ public class MarioMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 mouvement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
-        transform.position = transform.position + mouvement * Time.deltaTime;
+        Vector3 motion = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
+        transform.position = transform.position + motion * Time.deltaTime;
 
         
-        MarioAnimator.SetFloat("Speed", Mathf.Abs(mouvement.x));
+        MarioAnimator.SetFloat("Speed", Mathf.Abs(motion.x));
 
-        if (mouvement.x > 0.1)
+        if (motion.x > 0.1)
         {
             MarioSpriteRenderer.flipX = true;
         }
-        else if (mouvement.x < -0.1)
+        else if (motion.x < -0.1)
         {
             MarioSpriteRenderer.flipX = false;
         }
