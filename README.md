@@ -1,4 +1,5 @@
 # ImmersionEpitaMario
+Ceci est le repository du sujet d'Immersion pour lycéens de l'EPITA à Strasbourg.
 
 ## Architecture
 
@@ -19,5 +20,12 @@
 
 ### Avant l'arrivée des lycéens :
 * Le premier chargement est long => pensez à ouvrir 1 fois le projet avant l'arrivée des lycéens
-* Ouvrir la scène d'introduction pour ne pas qu'il perde de temps à la chercher
-* Et revenir sur le dossier Asset dans l'onglet 'Project'
+* Ouvrir la scène d'introduction pour ne pas qu'ils ne perdent pas de temps à la chercher
+* Et revenir sur le dossier Asset dans l'onglet "Project"
+
+### Autres :
+Version Unity de la création du sujet : `2021.3.8f1`
+
+## Crédits :
+* [Ethan Perruzza](https://github.com/EthanPerruzza)
+* [Laurane Deckers](https://github.com/Laurane67)
